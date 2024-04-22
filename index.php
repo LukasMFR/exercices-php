@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Tableau de bord des exercices</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Tableau de bord des exercices PHP</h1>
-    <p class="intro">Cette série d'exercices en PHP vise à vous aider à pratiquer et à renforcer vos compétences en programmation PHP. Chaque exercice aborde différents aspects de la programmation PHP, allant des concepts de base aux défis plus avancés.</p>
+    <p class="intro">Cette série d'exercices en PHP vise à vous aider à pratiquer et à renforcer vos compétences en
+        programmation PHP. Chaque exercice aborde différents aspects de la programmation PHP, allant des concepts de
+        base aux défis plus avancés.</p>
     <ul>
         <?php
         $descriptions = [
@@ -23,10 +27,11 @@
         for ($i = 1; $i <= 8; $i++) {
             echo "<li>";
             echo "<a href='exo$i/index.php'>Exercice $i</a>";
-            echo "<p class='description'>{$descriptions[$i-1]}</p>";
+            echo "<p class='description'>{$descriptions[$i - 1]}</p>";
             echo "</li>";
         }
         ?>
     </ul>
 </body>
+
 </html>
