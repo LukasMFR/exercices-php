@@ -78,6 +78,16 @@ This collection of PHP exercises aims to help users practice and strengthen thei
 - Use GET or POST parameters to track the current page number and adjust the SQL query accordingly.
 - Display the current page number and total number of pages.
 
+## Database Setup
+
+Before you start working on Exercises 6, 7, and 8, you need to import the SQL files into your phpMyAdmin:
+
+- `exo6.sql`
+- `exo7.sql`
+- `exo8.sql`
+
+These files contain the necessary database structures and initial data required for the exercises.
+
 ## Getting Started
 
 To get started with these exercises, clone this repository using:
@@ -90,4 +100,4 @@ Navigate to the repository directory and start working on the exercises by follo
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
