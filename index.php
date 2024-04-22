@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Tableau de bord des exercices PHP</h1>
-    <p>Cette série d'exercices en PHP vise à vous aider à pratiquer et à renforcer vos compétences en programmation PHP. Chaque exercice aborde différents aspects de la programmation PHP, allant des concepts de base aux défis plus avancés.</p>
+    <p class="intro">Cette série d'exercices en PHP vise à vous aider à pratiquer et à renforcer vos compétences en programmation PHP. Chaque exercice aborde différents aspects de la programmation PHP, allant des concepts de base aux défis plus avancés.</p>
     <ul>
         <?php
         $descriptions = [
